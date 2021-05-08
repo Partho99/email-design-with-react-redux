@@ -55,13 +55,13 @@ const EmailList = () => {
                     Icon={PeopleIcon}
                     title={'Social'}
                     color={'#1A73E8'}
-                    selected={true}
+                    selected={false}
                 />
                 <Section
                     Icon={LocalOfferIcon}
                     title={'Promotions'}
                     color={'green'}
-                    selected={true}
+                    selected={false}
                 />
             </div>
         </div>

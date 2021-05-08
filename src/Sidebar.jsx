@@ -22,56 +22,56 @@ const Sidebar = () => {
                     startIcon={<AddIcon fontSize="large"/>}>
                 COMPOSE
             </Button>
-            <SidebarOption
-                Icon={InboxIcon}
-                title={'inbox'}
-                number={54}
-                selected={true}
-            />
-            <SidebarOption
-                Icon={StarIcon}
-                title={'Starred'}
-                number={75}
-            />
-            <SidebarOption
-                Icon={AccessTimeIcon}
-                title={'Snoozed'}
-                number={75}
-            />
-            <SidebarOption
-                Icon={LabelImportantIcon}
-                title={'Important'}
-                number={75}
-            />
-            <SidebarOption
-                Icon={NearMeIcon}
-                title={'Sent'}
-                number={75}
-            />
-            <SidebarOption
-                Icon={NoteIcon}
-                title={'Drafts'}
-                number={75}
-            />
-            <SidebarOption
-                Icon={ExpandMoreIcon}
-                title={'More'}
-                number={75}
-            />
-            <div className={'sidebar__footer'}>
-                <div className={'sidebar__footerIcons'}>
-                    <IconButton>
-                        <PersonIcon/>
-                    </IconButton>
-                    <IconButton>
-                        <DuoIcon/>
-                    </IconButton>
-                    <IconButton>
-                        <PhoneIcon/>
-                    </IconButton>
+                <SidebarOption
+                    Icon={InboxIcon}
+                    title={'inbox'}
+                    number={54}
+                    selected={true}
+                />
+                <SidebarOption
+                    Icon={StarIcon}
+                    title={'Starred'}
+                    number={75}
+                />
+                <SidebarOption
+                    Icon={AccessTimeIcon}
+                    title={'Snoozed'}
+                    number={75}
+                />
+                <SidebarOption
+                    Icon={LabelImportantIcon}
+                    title={'Important'}
+                    number={75}
+                />
+                <SidebarOption
+                    Icon={NearMeIcon}
+                    title={'Sent'}
+                    number={75}
+                />
+                <SidebarOption
+                    Icon={NoteIcon}
+                    title={'Drafts'}
+                    number={75}
+                />
+                <SidebarOption
+                    Icon={ExpandMoreIcon}
+                    title={'More'}
+                    number={75}
+                />
+                <div className={'sidebar__footer'}>
+                    <div className={'sidebar__footerIcons'}>
+                        <IconButton>
+                            <PersonIcon/>
+                        </IconButton>
+                        <IconButton>
+                            <DuoIcon/>
+                        </IconButton>
+                        <IconButton>
+                            <PhoneIcon/>
+                        </IconButton>
+                    </div>
                 </div>
             </div>
-        </div>
     );
 };
 

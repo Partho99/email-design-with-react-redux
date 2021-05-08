@@ -14,6 +14,7 @@ export const incrementAsync = createAsyncThunk(
   'counter/fetchCount',
   async (amount) => {
     // The value we return becomes the `fulfilled` action payload
+    return null;
   }
 );
 

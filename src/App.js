@@ -7,24 +7,24 @@ import Mail from "./Mail";
 import EmailList from "./EmailList";
 
 function App() {
-    return (
-        <Router>
-            <div className="App">
-                <Header/>
-                <div className={'app__body'}>
-                    <Sidebar/>
-                    <Switch>
-                        <Route path={'/mail'}>
-                            <Mail/>
-                        </Route>
-                        <Route path={'/'}>
-                            <EmailList/>
-                        </Route>
-                    </Switch>
-                </div>
-            </div>
-        </Router>
-    );
+  return (
+      <Router>
+        <div className="App">
+          <Header/>
+          <div className={'app__body'}>
+            <Sidebar/>
+            <Switch>
+              <Route path={'/mail'}>
+                <Mail/>
+              </Route>
+              <Route path={'/'}>
+                <EmailList/>
+              </Route>
+            </Switch>
+          </div>
+        </div>
+      </Router>
+  );
 }
 
 export default App;
